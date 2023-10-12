@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHPoll</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
+    <style>
+        .container {
+          padding: 20px;
+          border-style: solid;
+          border-width: thin;
+        }
+
+        .form-group{
+            margin-bottom: 10px;
+        }
+        
+        .input-label{        
+            display: inline-block;
+            width: 10%;            
+        }
+
+        .input-select{
+            width: 178px;
+            height: 22px;
+        }
+
+        .input-check{
+            display: inline-block;
+        }
+
+        .input-sumbit{
+            margin-top: 1%;            
+        }
+    </style>
+</head>
+<body>
+    <h2>FORMULARIO DE VOTACIÓN:</h2>
+
+
+    <form method="POST" class="container" action="">
+        <div class="form-group">
+            <label for="nombreCompleto" class="input-label">Nombre y Apellido</label>
+            <input type="text" name="nombreCompleto" id="nombreCompleto" required>
+        </div>
+        <div class="form-group">
+            <label for="alias" class="input-label">Alias</label>
+            <input type="text" name="alias" id="alias" required onkeypress="return permite(event, 'num_car')">
+        </div>
+        <div class="form-group">
+            <label for="rut" class="input-label">RUT</label>
+            <input type="text" name="rut" id="rut" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="input-label">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="region" class="input-label">Región</label>
+            <select name="region" id="region" class="input-select" required>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="comuna" class="input-label">Comuna</label>
+            <select name="comuna" id="comuna" class="input-select" required>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="candidato" class="input-label">Candidato</label>
+            <select name="candidato" id="candidato" class="input-select" required>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="nombreCompleto" class="input-label">Cómo se enteró de Nosotros</label>
+            <input type="checkbox" name="in_web" id="in_web" class="input-check">Web
+            <input type="checkbox" name="in_tv" id="in_tv" class="input-check">TV
+            <input type="checkbox" name="in_rrss" id="in_rrss" class="input-check">Redes Sociales
+            <input type="checkbox" name="in_amigo" id="in_amigo" class="input-check">Amigo
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="input-sumbit" name="btnSubmit" id="btnSubmit">
+                Votar
+            </button>
+        </div>
+    </form>
+
+</body>
+</html>
