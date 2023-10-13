@@ -6,6 +6,7 @@
 
 ![](https://www.php.net/images/logos/new-php-logo.svg)
 
+[TOC]
 
 Preparación del Entorno
 -------------
