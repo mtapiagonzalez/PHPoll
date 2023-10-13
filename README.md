@@ -169,7 +169,7 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 - Se utiliza **HTML, PHP, JavaScript, AJAX MySQL**. :white_check_mark:
 
-- Se valida que los Inputs no queden en blanco, largo y limitaciones de carácteres. :white_check_mark:
+- Se valida que los Inputs no queden en blanco, largo y limitación de carácteres. :white_check_mark:
 
 - Los ComboBox se cargan desde la base y existe relación entre Región -> Comuna. :white_check_mark: 
 
