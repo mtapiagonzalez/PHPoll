@@ -68,7 +68,7 @@ USE PHPoll;
 ```
 
 
-- #####Creacion de Tablas
+- ##### Creacion de Tablas
 
 ```sql
 CREATE TABLE CANDIDATO (
