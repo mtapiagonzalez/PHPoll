@@ -29,7 +29,7 @@ Para continuar con la instalación, ubicaremos la carpeta htdocs dentro del dire
 Instalación del Proyecto
 -------------
 Con todo lo anterior claro, ya se puede empezar la instalación del proyecto. Primero deberás elegir entre clonar o descargar el repositorio en .zip. 
-###Repositorio
+### Repositorio
 El repositorio lo puedes encontrar en el siguiente enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
 
 Puedes decidir entre clonar o descargar el repositorio, a continuación te muestro ambas maneras.
@@ -161,7 +161,7 @@ Puedes ingresar directamente al gestor de base de datos en:
 
 Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos a dirigir a:
 
-- ####localhost/PHPoll
+- #### localhost/PHPoll
 
 ------------
 
