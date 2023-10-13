@@ -201,7 +201,7 @@ Sección donde adjunto los enlaces que me sirvieron de referencia para construir
 - https://www.php.net/manual/en/function.mysql-connect.php
 - https://kafle.io/tutorials/php/MySQL
 - https://www.w3schools.com/sql/sql_foreignkey.asp
-##### SQL
+##### CSS
 - https://es.stackoverflow.com/questions/135207/como-alinear-input-de-formulario-con-labels
 - https://www.w3schools.com/css/css_border.asp
 - https://www.w3schools.com/cssref/pr_border-width.php
