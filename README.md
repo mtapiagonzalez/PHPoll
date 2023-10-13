@@ -1,6 +1,8 @@
 ### News
 
 - Se subió el proyecto inicial con los requerimientos solicitados.
+- V.1.1 Se valida que el Alias contenga al menos un número y al menos una letra.
+- V.1.1 Se incluyen placeholders a los input **Alias** y **RUT**.
 
 # PHPoll - Prueba Técnica Desis 2023
 #### PHP Versión 8.0.28 / MySQL 15.1 10.4.28-MariaDB
