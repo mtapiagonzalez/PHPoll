@@ -1,6 +1,8 @@
 ### News
 
 - Se subió el proyecto inicial con los requerimientos solicitados.
+- V.1.1 Se valida que el Alias contenga al menos un número y al menos una letra.
+- V.1.1 Se incluyen placeholders a los input **Alias** y **RUT**.
 
 # PHPoll - Prueba Técnica Desis 2023
 #### PHP Versión 8.0.28 / MySQL 15.1 10.4.28-MariaDB
@@ -167,7 +169,7 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 - Se utiliza **HTML, PHP, JavaScript, AJAX MySQL**. :white_check_mark:
 
-- Se valida que los Inputs no queden en blanco, largo y limitaciones de carácteres. :white_check_mark:
+- Se valida que los Inputs no queden en blanco, largo y limitación de carácteres. :white_check_mark:
 
 - Los ComboBox se cargan desde la base y existe relación entre Región -> Comuna. :white_check_mark: 
 
@@ -181,7 +183,7 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 Antes de despedirme, voy a explicar cómo funciona la aplicación y en qué consiste.
 
-**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Además te facilita la búsqueda por Región y filtros por Comuna. Además, surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
+**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Tendrás que indicar tus datos personales para votar. Facilita la búsqueda por Región y filtros por Comuna. También surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
 
 *¡Recuerda, tienes sólo 1 voto!*
 
