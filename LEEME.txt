@@ -1,0 +1,7 @@
+Los pasos para poder instalar el proyecto se encuentran en el siguiente enlace:
+https://github.com/mtapiagonzalez/PHPoll
+
+Específicamente en el archivo README.md, 
+puedes encontrar toda la documentación del proyecto
+
+README.md --> https://github.com/mtapiagonzalez/PHPoll/blob/main/README.md
