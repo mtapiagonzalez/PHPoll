@@ -6,8 +6,6 @@
 
 ![](https://www.php.net/images/logos/new-php-logo.svg)
 
-[TOC]
-
 Preparación del Entorno
 -------------
 
@@ -19,7 +17,7 @@ Puedes descargar la versión necesaria directamente desde aca:
 
 *Recomiendo realizar una instalación limpia sin modificaciones, sólo dar next y finalizar.*
 
-### htdocs
+# htdocs
 La instalación limpia de XAMPP nos va a generar una carpeta en la raíz de nuestro Disco C:.
 
 - C:\xampp
