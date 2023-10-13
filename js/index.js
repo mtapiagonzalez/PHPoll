@@ -42,7 +42,7 @@ function btnVotar(){
         if (nombreCompleto == ""){
             alert('Debe especificar un Nombre.');
             event.preventDefault();
-        }else if(alias == "" || alias.length <= 5){
+        }else if(alias == "" || alias.length <= 5 || !validaInput(alias)){
             alert('Debe especificar un Alias válido.');
             event.preventDefault();
         }else if (!Fn.validaRut(rut)){
@@ -232,6 +232,17 @@ function permite(elEvento, permitidos) {
     return permitidos.indexOf(caracter) != -1 || tecla_especial;
 }
 
+function validaInput(inputValue) {
+    var contieneNumero = /[0-9]/.test(inputValue);
+    var contieneLetra = /[a-zA-ZáéíóúñÁÉÍÓÚÑ]/.test(inputValue);
+
+    if (contieneNumero && contieneLetra) {
+        return true;
+    } else {
+        alert("El Alias debe contener al menos una letra y al menos un número.");
+        return false;
+    }
+}
   
 function validateEmail(){
                 
