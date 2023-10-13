@@ -133,9 +133,8 @@ Las querys deberán ser ejecutadas dentro del administrador de base de datos **p
 
 En la siguiente sección se explica cómo levantar los servicios de **MySQL**.
 
-
-### Ejecutar Proyecto
 -------------
+### Ejecutar Proyecto
 
 Para ejecutar el proyecto deberas iniciar primero el **XAMPP Control Panel**, puedes buscarlo en tu panel de windows o puedes abrirlo directamente en su directorio raíz. 
 - C:\xampp\xampp-control.exe
@@ -185,6 +184,7 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 Antes de despedirme, voy a explicar cómo funciona la aplicación y en que consiste.
 
 **PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Además te facilita la busqueda por Región y filtros por Comuna. Además, surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
+Recuerda, tienes sólo 1 voto!
 
 Sin mas que agregar, me despido agradecido por la oportunidad.
 
