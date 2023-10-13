@@ -156,6 +156,7 @@ A través de cualquier navegador ingresa a:
 Puedes ingresar directamente al gestor de base de datos en:
 
 - **localhost/phpmyadmin**
+![](https://i.stack.imgur.com/BcsLv.png)
 
 Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos a dirigir a:
 
