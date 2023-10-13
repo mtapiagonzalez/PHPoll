@@ -180,6 +180,10 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 - No permite registros duplicados. :white_check_mark: 
 
 ----
+### Vista Previa
+Aquí se muestra una vista previa del **Formulario de Votación**.
+
+![](https://raw.githubusercontent.com/mtapiagonzalez/PHPoll/main/doc/vista_previa.jpg)
 
 Antes de despedirme, voy a explicar cómo funciona la aplicación y en qué consiste.
 
