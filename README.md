@@ -183,7 +183,7 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 Antes de despedirme, voy a explicar cómo funciona la aplicación y en qué consiste.
 
-**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Además te facilita la búsqueda por Región y filtros por Comuna. Además, surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
+**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Tendrás que indicar tus datos personales para votar. Facilita la búsqueda por Región y filtros por Comuna. También surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
 
 *¡Recuerda, tienes sólo 1 voto!*
 
