@@ -41,12 +41,12 @@ En tu linea de comando o GitBash deberás ingresar lo siguiente:
 ###### $	git clone https://github.com/mtapiagonzalez/PHPoll.git
 
 - ##### Descargar
-Para descargar el repositorio tendrás que dirigirte al enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
+Para descargar el repositorio tendrás que dirigirte a [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
 y al desplegar el boton <code><> Code</code> tendrás que hacer click en <code>Download Zip</code>
 
 
 ### Directorio
-Una vez descargado o clonado el proyecto<code>PHPoll-main.zip</code>deberas extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
+Una vez descargado o clonado el proyecto<code>PHPoll-main.zip</code> deberás extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
 
 Tendrás que renombrar la carpeta solamente a<code>PHPoll</code> y la vas a mover a la carpeta **/htdocs** que mencioné al comienzo. 
 
