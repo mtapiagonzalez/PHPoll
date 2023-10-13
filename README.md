@@ -149,15 +149,15 @@ Damos click en <code>Start</code> en ambos servicios para iniciarlos.
 
 Una vez arriba los servicios, podemos dirigirnos a la página principal de bienvenida.
 A través de cualquier navegador ingresa a:
-- **[localhost/](localhost/ "Página de Bienvenida XAMPP")** 
+- **[localhost/](http://localhost/ "Página de Bienvenida XAMPP")** 
 
 Puedes ingresar directamente al gestor de base de datos en:
 
-- **[localhost/phpmyadmin](localhost/phpmyadmin "phpMyAdmin")** 
+- **[localhost/phpmyadmin](http://localhost/phpmyadmin "phpMyAdmin")** 
 
 Pero lo que realmente nos importa es visitar la aplicación web, nos vamos a dirigir a:
 
-- **[localhost/PHPoll](localhost/PHPoll "PHPoll")** 
+- **[localhost/PHPoll](http://localhost/PHPoll "PHPoll")** 
 
 ------------
 
