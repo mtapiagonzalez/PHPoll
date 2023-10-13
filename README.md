@@ -3,6 +3,7 @@
 - Se subió el proyecto inicial con los requerimientos solicitados.
 
 # PHPoll
+#### PHP Versión 8.0.28 / MySQL 15.1 10.4.28-MariaDB
 
 ![](https://www.php.net/images/logos/new-php-logo.svg)
 
@@ -169,19 +170,17 @@ Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos 
 -------------
 A continuación se presenta la lista de requerimientos y su cumplimiento.
 
-- Se utiliza **HTML, PHP, JS, AJAX MySQL**. :tw-2705: 
+- Se utiliza **HTML, PHP, JS, AJAX MySQL**. :white_check_mark:
 
-- Se valida que los Inputs no queden en blanco, largo y limitaciones de carácteres. :tw-2705: 
+- Se valida que los Inputs no queden en blanco, largo y limitaciones de carácteres. :white_check_mark:
 
-- Los ComboBox se cargan desde la base y existe relación entre Región -> Comuna. :tw-2705: 
+- Los ComboBox se cargan desde la base y existe relación entre Región -> Comuna. :white_check_mark: 
 
-- Se valida que al menos 2 checkbox estén seleccionados. :tw-2705: 
+- Se valida que al menos 2 checkbox estén seleccionados. :white_check_mark:
 
-- Se valida el RUT y el formato de Correo Electrónico. :tw-2705: 
+- Se valida el RUT y el formato de Correo Electrónico. :white_check_mark: 
 
-- No permite registros duplicados. :tw-2705: 
-
-
+- No permite registros duplicados. :white_check_mark: 
 
 ----
 
@@ -192,3 +191,23 @@ Antes de despedirme, voy a explicar cómo funciona la aplicación y en que consi
 Sin mas que agregar, me despido agradecido por la oportunidad.
 
 -Mathias Tapia González
+
+----
+### Bibliografía
+Sección donde adjunto los enlaces que me sirvieron de referencia para construir esta aplicación. Muchas gracias por todo lo disponible al alcance.
+
+##### SQL
+- https://gist.github.com/gonzunigad/e22505055e485d782343b47c82b11f96
+- https://www.php.net/manual/en/function.mysql-connect.php
+- https://kafle.io/tutorials/php/MySQL
+- https://www.w3schools.com/sql/sql_foreignkey.asp
+##### SQL
+- https://es.stackoverflow.com/questions/135207/como-alinear-input-de-formulario-con-labels
+- https://www.w3schools.com/css/css_border.asp
+- https://www.w3schools.com/cssref/pr_border-width.php
+
+##### Valida RUT
+- https://codepen.io/donpandix/pen/jWNNKj
+
+##### Limita y Valida Input
+- https://codepen.io/sakuragy/pen/oNPQWq
