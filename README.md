@@ -13,7 +13,7 @@ Preparación del Entorno
 ### XAMPP
 Para empezar, deberás instalar lo que será el servidor web y gestor de base de datos MySQL.
 
-Puedes descargar la versión necesaria directamente desde aca:
+Puedes descargar la versión necesaria directamente desde acá:
 [XAMPP 8.0.28](https://www.apachefriends.org/es/download.html "Descargar XAMPP 8.0.28")
 
 *Recomiendo realizar una instalación limpia sin modificaciones, sólo dar next y finalizar.*
@@ -29,26 +29,24 @@ Para continuar con la instalación, ubicaremos la carpeta htdocs dentro del dire
 
 Instalación del Proyecto
 -------------
-Con todo lo anterior claro, ya se puede empezar la instalación del proyecto. Primero deberás elegir entre clonar o descargar el repositorio en .zip. 
+Con todo lo anterior claro, ya se puede empezar la instalación del proyecto. Primero deberás elegir entre <code>clonar</code> o descargar el repositorio en <code>.zip</code> 
 ### Repositorio
-El repositorio lo puedes encontrar en el siguiente enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
+El repositorio lo puedes encontrar en el siguiente enlace: **https://github.com/mtapiagonzalez/PHPoll.git**
 
 Puedes decidir entre clonar o descargar el repositorio, a continuación te muestro ambas maneras.
 - ##### Clonar
 
 En tu linea de comando o GitBash deberás ingresar lo siguiente:
-###### $	git clone {repository}
 
-en este caso tendrás que utilizar el repositorio de PHPoll.
 ###### $	git clone https://github.com/mtapiagonzalez/PHPoll.git
 
 - ##### Descargar
 Para descargar el repositorio tendrás que dirigirte al enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
-y en el boton <code><> Code</code> tendrás que hacer click en <code>Download Zip</code>
+y al desplegar el boton <code><> Code</code> tendrás que hacer click en <code>Download Zip</code>
 
 
 ### Directorio
-Una vez descargado el proyecto<code>PHPoll-main.zip</code>deberas extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
+Una vez descargado o clonado el proyecto<code>PHPoll-main.zip</code>deberas extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
 
 Tendrás que renombrar la carpeta solamente a<code>PHPoll</code> y la vas a mover a la carpeta **/htdocs** que mencioné al comienzo. 
 
@@ -69,7 +67,7 @@ USE PHPoll;
 ```
 
 
-- ##### Creacion de Tablas
+- ##### Creación de Tablas
 
 ```sql
 CREATE TABLE CANDIDATO (
@@ -149,17 +147,17 @@ Damos click en <code>Start</code> en ambos servicios para iniciarlos.
 ![](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN_XAMPP_Control_Panel_2.PNG)
 
 
-Una vez arriba los servicios, podemos dirigirnos a nuestra página principal de bienvenida.
+Una vez arriba los servicios, podemos dirigirnos a la página principal de bienvenida.
 A través de cualquier navegador ingresa a:
-- **localhost/**
+- **[localhost/](localhost/ "Página de Bienvenida XAMPP")** 
 
 Puedes ingresar directamente al gestor de base de datos en:
 
-- **localhost/phpmyadmin**
+- **[localhost/phpmyadmin](localhost/phpmyadmin "phpMyAdmin")** 
 
-Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos a dirigir a:
+Pero lo que realmente nos importa es visitar la aplicación web, nos vamos a dirigir a:
 
-- #### localhost/PHPoll
+- **[localhost/PHPoll](localhost/PHPoll "PHPoll")** 
 
 ------------
 
@@ -167,7 +165,7 @@ Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos 
 
 A continuación se presenta la lista de requerimientos y su cumplimiento.
 
-- Se utiliza **HTML, PHP, JS, AJAX MySQL**. :white_check_mark:
+- Se utiliza **HTML, PHP, JavaScript, AJAX MySQL**. :white_check_mark:
 
 - Se valida que los Inputs no queden en blanco, largo y limitaciones de carácteres. :white_check_mark:
 
@@ -181,11 +179,11 @@ A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 ----
 
-Antes de despedirme, voy a explicar cómo funciona la aplicación y en que consiste.
+Antes de despedirme, voy a explicar cómo funciona la aplicación y en qué consiste.
 
-**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Además te facilita la busqueda por Región y filtros por Comuna. Además, surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
+**PHPoll** te permite realizar un voto por tu candidato favorito registrado hasta la fecha. Además te facilita la búsqueda por Región y filtros por Comuna. Además, surge la duda de cuál fue el canal de comunicación por el cual te enteraste de PHPoll.
 
-¡Recuerda, tienes sólo 1 voto!
+*¡Recuerda, tienes sólo 1 voto!*
 
 Sin mas que agregar, me despido agradecido por la oportunidad.
 
