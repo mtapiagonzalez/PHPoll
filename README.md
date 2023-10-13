@@ -36,7 +36,7 @@ Puedes decidir entre clonar o descargar el repositorio, a continuación te muest
  - ##### Clonar
 
 En tu linea de comando o GitBash deberás ingresar lo siguiente:
-- ###### $	git clone {repository}
+###### $	git clone {repository}
 
 en este caso tendrás que utilizar el repositorio de PHPoll.
 ###### $	git clone https://github.com/mtapiagonzalez/PHPoll.git
