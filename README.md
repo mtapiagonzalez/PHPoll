@@ -46,9 +46,9 @@ y al desplegar el boton <code><> Code</code> tendrás que hacer click en <code>D
 
 
 ### Directorio
-Una vez descargado o clonado el proyecto<code>PHPoll-main.zip</code> deberás extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
+Una vez descargado o clonado el proyecto <code>PHPoll-main.zip</code> deberás extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
 
-Tendrás que renombrar la carpeta solamente a<code>PHPoll</code> y la vas a mover a la carpeta **/htdocs** que mencioné al comienzo. 
+Tendrás que renombrar la carpeta solamente a <code>PHPoll/</code> y la vas a mover a la carpeta **/htdocs** que mencioné al comienzo. 
 
 Para validar que todo esté correcto, te comparto la ubicación o ruta final del directorio donde debería estar el proyecto.
 - ##### C:\xampp\htdocs\PHPoll
