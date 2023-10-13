@@ -34,33 +34,33 @@ Con todo lo anterior claro, ya se puede empezar la instalación del proyecto. Pr
 El repositorio lo puedes encontrar en el siguiente enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
 
 Puedes decidir entre clonar o descargar el repositorio, a continuación te muestro ambas maneras.
- - #####Clonar
+ - ##### Clonar
 
 En tu linea de comando o GitBash deberás ingresar lo siguiente:
-- ######$	git clone {repository}
+- ###### $	git clone {repository}
 
 en este caso tendrás que utilizar el repositorio de PHPoll.
-######$	git clone https://github.com/mtapiagonzalez/PHPoll.git
+###### $	git clone https://github.com/mtapiagonzalez/PHPoll.git
 
-- #####Descargar
+- ##### Descargar
 Para descargar el repositorio tendrás que dirigirte al enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
 y en el boton <code><> Code</code> tendrás que hacer click en <code>Download Zip</code>
 
 
-####Directorio
+#### Directorio
 Una vez descargado el proyecto<code>PHPoll-main.zip</code>deberas extraer el contenido. Debería quedar una carpeta llamada **/PHPoll-main**
 
 Tendrás que renombrar la carpeta solamente a<code>PHPoll</code> y la vas a mover a la carpeta **/htdocs** que mencioné al comienzo. 
 
 Para validar que todo esté correcto, te comparto la ubicación o ruta final del directorio donde debería estar el proyecto.
-- #####C:\xampp\htdocs\PHPoll
+- ##### C:\xampp\htdocs\PHPoll
 
-####Dependencias
+#### Dependencias
 Las dependencias de este proyecto además de instalar el servidor y gestor, es crear la propia base de datos la cual se adjunta en los archivos de la carpeta **/sql** del repositorio. 
 
 De todas maneras a continuación se muestran los script para crear la base de datos y las tablas necesarias para que el proyecto funcione.
 
-- #####Base de datos
+- ##### Base de datos
 
 ```sql
 CREATE DATABASE PHPoll;
@@ -119,22 +119,22 @@ CREATE TABLE VOTO (
 ```
 
 
-- #####Poblamiento de Datos
+- ##### Poblamiento de Datos
 
 Es demasiada información adjuntar la inserción de datos para las tablas, pero aquí está un enlace para que puedan descargar el archivo **[populate-db.sql](https://github.com/mtapiagonzalez/PHPoll/blob/main/sql/populate-db.sql "Poblar Database")**
 
 Las tablas que se deben abastecer para que todo funcione son en el siguiente orden:
 
-**CANDIDATO** / ** REGION** / **COMUNA**
+**CANDIDATO** / **REGION** / **COMUNA**
 
-- #####Ejecución de Querys
+- ##### Ejecución de Querys
 
 Las querys deberán ser ejecutadas dentro del administrador de base de datos **phpMyAdmin**. 
 
 En la siguiente sección se explica cómo levantar los servicios de **MySQL**.
 
 
-###Ejecutar Proyecto
+### Ejecutar Proyecto
 -------------
 
 Para ejecutar el proyecto deberas iniciar primero el **XAMPP Control Panel**, puedes buscarlo en tu panel de windows o puedes abrirlo directamente en su directorio raíz. 
@@ -166,7 +166,7 @@ Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos 
 
 ------------
 
-###Requerimientos
+### Requerimientos
 -------------
 A continuación se presenta la lista de requerimientos y su cumplimiento.
 
