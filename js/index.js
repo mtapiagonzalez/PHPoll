@@ -42,7 +42,7 @@ function btnVotar(){
         if (nombreCompleto == ""){
             alert('Debe especificar un Nombre.');
             event.preventDefault();
-        }else if(alias == "" || alias.length < 5){
+        }else if(alias == "" || alias.length <= 5){
             alert('Debe especificar un Alias válido.');
             event.preventDefault();
         }else if (!Fn.validaRut(rut)){
