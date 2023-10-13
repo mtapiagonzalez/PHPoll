@@ -9,7 +9,7 @@
 Preparación del Entorno
 -------------
 
-# XAMPP
+### XAMPP
 Para empezar, deberás instalar lo que será el servidor web y gestor de base de datos MySQL.
 
 Puedes descargar la versión necesaria directamente desde aca:
@@ -17,7 +17,7 @@ Puedes descargar la versión necesaria directamente desde aca:
 
 *Recomiendo realizar una instalación limpia sin modificaciones, sólo dar next y finalizar.*
 
-# htdocs
+### htdocs
 La instalación limpia de XAMPP nos va a generar una carpeta en la raíz de nuestro Disco C:.
 
 - C:\xampp
