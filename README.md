@@ -33,7 +33,7 @@ Con todo lo anterior claro, ya se puede empezar la instalación del proyecto. Pr
 El repositorio lo puedes encontrar en el siguiente enlace: [PHPoll](https://github.com/mtapiagonzalez/PHPoll.git "Repositorio GitHub")
 
 Puedes decidir entre clonar o descargar el repositorio, a continuación te muestro ambas maneras.
- - ##### Clonar
+- ##### Clonar
 
 En tu linea de comando o GitBash deberás ingresar lo siguiente:
 ###### $	git clone {repository}
