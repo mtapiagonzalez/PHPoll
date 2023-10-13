@@ -2,7 +2,7 @@
 
 - Se subió el proyecto inicial con los requerimientos solicitados.
 
-# PHPoll
+# PHPoll - Prueba Técnica Desis 2023
 #### PHP Versión 8.0.28 / MySQL 15.1 10.4.28-MariaDB
 
 ![](https://www.php.net/images/logos/new-php-logo.svg)
