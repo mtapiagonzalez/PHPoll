@@ -150,8 +150,6 @@ Damos click en <code>Start</code> en ambos servicios para iniciarlos.
 ![](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN_XAMPP_Control_Panel_2.PNG)
 
 
---------
-
 Una vez arriba los servicios, podemos dirigirnos a nuestra página principal de bienvenida.
 A través de cualquier navegador ingresa a:
 - **localhost/**
@@ -167,7 +165,7 @@ Pero lo que realmente nos importa es visitar nuestra aplicación web, nos vamos 
 ------------
 
 ### Requerimientos
--------------
+
 A continuación se presenta la lista de requerimientos y su cumplimiento.
 
 - Se utiliza **HTML, PHP, JS, AJAX MySQL**. :white_check_mark:
